@@ -52,7 +52,7 @@
 							<div class="col-md-12">
 								<!-- Logo -->
 								<!--<div class="logo"><a title="" href="#">Kumo</a></div>-->
-                <img class="logo-img" src="/img/kumo-logo-white.png" alt="KUMO" height="42px" max-width="169px">
+                <img class="logo-img" src="img/kumo-logo-white.png" alt="KUMO" height="42px" max-width="169px">
 								<!-- Logo End -->
 								<!-- Menu -->
 								<div class="nav">
@@ -138,7 +138,7 @@
 								<a href="#">
 								  <img class="btn-app-store" src="/img/btn-app-store.png" alt="Download Kumo Free On The Apple AppStore">
 								</a>
-                <p class="small">* Coming soon to Android</p>
+                <p class="small">Coming soon to Android</p>
 							</div>
 							<!-- Heading End -->
 							<!-- Carousel -->
@@ -149,7 +149,8 @@
 										<div class="icon-wrap wow fadeIn" data-wow-offset="300">
 											<i class="fa fa-rocket icon"></i>
 											<h3>Promote Yourself</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+											<p>Tag yourself with keywords and be found by other people in your area.</p>
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#promoteYourself">Learn More</button>
 										</div>
 									</div>
 									<!-- Item -->
@@ -157,7 +158,8 @@
 										<div class="icon-wrap wow fadeIn" data-wow-delay="0.5s" data-wow-offset="300">
 											<i class="fa fa-search icon"></i>
 											<h3>Find New People</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+											<p>Search keywords to instantly connect with people around you.</p>
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#findNewPeople">Learn More</button>
 										</div>
 									</div>
 									<!-- Item -->
@@ -165,7 +167,8 @@
 										<div class="icon-wrap wow fadeIn" data-wow-delay="1s" data-wow-offset="300">
 											<i class="fa fa-users icon"></i>
 											<h3>Manage Contacts</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+											<p>Create groups, search by keywords, connected social, all auto updated.</p>
+											<button type="button" class="btn btn-default" data-toggle="modal" data-target="#manageContacts">Learn More</button>
 										</div>
 									</div>
 								</div>
@@ -182,14 +185,17 @@
 			<!-- Newsletter Section -->
 			<section id="newsletter" class="clearfix">
 				<!-- Newsletter -->
-				<div class="newsletter overlay-gradient">
+				<div class="newsletter">
+					<!-- Overlay -->
+					<div class="overlay-silver bg"></div>
 					<div class="container">
+						<!-- Overlay -->
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<!-- Heading -->
-								<div class="heading center inverted">
+								<div class="heading center">
 									<h2>Stay Up To Date</h2>
-									<p class="subheadline">Get notified when we have events in your area and release major features. Never any spam, promise!</p>
+									<p class="subheadline">Get notified when we have events in your area or release major features. Never any spam, promise!</p>
 								</div>
 								<!-- Heading End -->
 								<!-- Subscribe Form -->
@@ -208,6 +214,28 @@
 				<!-- Newsletter End -->
 			</section>
 			<!-- Newsletter Section End -->
+			<!-- Share Section -->
+			<section id="share" class="clearfix">
+				<!-- Share -->
+				<div class="share overlay-gradient">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<!-- Heading -->
+								<div class="heading center inverted">
+									<h2>Kumo is better with friends</h2>
+									<p class="subheadline">Love showing your friends awesome new stuff? Here's your chance!</p>
+								</div>
+								<!-- Heading End -->
+							</div>
+						</div>
+						<!-- .row End -->
+					</div>
+					<!-- .container End -->
+				</div>
+				<!-- Share End -->
+			</section>
+			<!-- Share Section End -->
 			<!-- Contact Section -->
 			<section id="contact" class="clearfix" data-scroll-index="6">
 				<!-- Contact -->
@@ -225,7 +253,8 @@
 							<div class="col-md-6">
 								<!-- Adress -->
 								<ul class="fast-contact">
-									<li><i class="fa fa-building-o"></i>Cyborg.ai, Inc.<br>743 Santee St #202<br>Los Angeles, CA 90014</li>
+									<li><i class="fa fa-building-o"></i>Cyborg.ai, Inc.<br>Los Angeles, CA
+									<br>Austin, TX</li>
 									<li><i class="fa fa-phone"></i>310-795-2623</li>
 									<li><i class="fa fa-envelope"></i><a href="#" title="">hello@cyborg.ai</a></li>
 								</ul>
@@ -275,6 +304,60 @@
 			<!-- .container End -->
 		</footer>
 		<!-- Footer -->
+		<!-- Modal Promote Yourself -->
+		<div class="modal fade" id="promoteYourself" tabindex="-1" role="dialog" aria-labelledby="promoteYourselfLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="promoteYourselfLabel">Promote Yourself</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal Promote Yourself End -->
+		<!-- Modal Find New People -->
+		<div class="modal fade" id="findNewPeople" tabindex="-1" role="dialog" aria-labelledby="findNewPeopleLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="findNewPeopleLabel">Find New People</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal Find New People End -->
+		<!-- Modal Manage Contacts -->
+		<div class="modal fade" id="manageContacts" tabindex="-1" role="dialog" aria-labelledby="manageContactsLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="manageContactsLabel">Manage Contacts</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal Manage Contacts End -->
 		<!-- Javascript Files -->
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>

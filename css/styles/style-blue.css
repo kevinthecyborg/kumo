@@ -13,7 +13,7 @@
 **   FONTS   **
 **************/
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500|Pacifico);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500|Pacifico);*/
 /******************
 **  01. Globals  **
 ******************/
@@ -373,7 +373,7 @@ section {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	opacity: 0.1;
+	opacity: 0.15;
 }
 /* Parallax */
 
@@ -664,7 +664,7 @@ header {
 	font-size: 24px;
 	color: #303030;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 400;
 	margin-bottom: 30px;
 }
 
@@ -1119,11 +1119,12 @@ cite span {
 	padding-left: 60px;
 	border-top-left-radius: 50px;
 	border-bottom-left-radius: 50px;
+	border: 1px solid #ddd;
 }
 
 .newsletter .submit {
-	background: #03a9f4;
-	border: 1px solid #03a9f4;
+	background: #2196f3;
+	border: 1px solid #2196f3;
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 	transition: all 0.2s;
@@ -1148,6 +1149,12 @@ cite span {
 	bottom: -30px;
 	left: 50%;
 	margin-left: -255px;
+}
+
+/* Share (custom) */
+.share {
+	padding: 100px 0;
+	position: relative;
 }
 /* Contact */
 
@@ -1349,6 +1356,19 @@ footer i.fa-heart {
 .tagline {
   font-size: 24px !important;
   line-height: 32px;
+}
+
+.btn-default {
+	background: none;
+	color: #989898;
+	border: 1px solid #989898;
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus {
+	background: #2196f3;
+	border: 1px solid #2196f3;
 }
 
 /*************************
