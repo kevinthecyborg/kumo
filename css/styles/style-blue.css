@@ -156,7 +156,7 @@ h6 {
 		-webkit-transform: rotate(360deg);
 		-ms-transform: rotate(360deg);
 		transform: rotate(360deg);
-	};
+	}
 }
 
 @keyframes spin {
@@ -170,7 +170,7 @@ h6 {
 		-webkit-transform: rotate(360deg);
 		-ms-transform: rotate(360deg);
 		transform: rotate(360deg);
-	};
+	}
 }
 /* Globals */
 
@@ -232,9 +232,9 @@ h2 {
 .overlay-gradient {
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjU0Zjc1IiBzdG9wLW9wYWNpdHk9IjAuOSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNGU4MWI2IiBzdG9wLW9wYWNpdHk9IjAuOSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(-45deg, rgba(37, 79, 117, 0.9) 0%, rgba(78, 129, 182, 0.9) 100%);
+	background: -moz-linear-gradient(-45deg, rgba(33, 150, 243, 0.9) 0%, rgba(21, 101, 192, 0.9) 100%);
     /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(37, 79, 117, 0.9)), color-stop(100%, rgba(78, 129, 182, 0.9)));
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(33, 150, 243, 0.9)), color-stop(100%, rgba(21, 101, 192, 0.9)));
     /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(-45deg, rgba(33, 150, 243, 0.9) 0%, rgba(21, 101, 192, 0.9) 100%);
     /* Chrome10+,Safari5.1+ */
@@ -1362,6 +1362,7 @@ footer i.fa-heart {
 	background: none;
 	color: #989898;
 	border: 1px solid #989898;
+	padding: 6px 12px 5px;
 }
 
 .btn-default:hover,
@@ -1369,6 +1370,10 @@ footer i.fa-heart {
 .btn-default:focus {
 	background: #2196f3;
 	border: 1px solid #2196f3;
+}
+
+.addthis_inline_share_toolbox {
+  text-align: center;
 }
 
 /*************************
@@ -1387,5 +1392,5 @@ footer i.fa-heart {
 	.nav .download-btn a:hover,
     .nav .download-btn a.active {
 		color: #2196f3;
-	};
+	}
 }
