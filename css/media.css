@@ -152,3 +152,35 @@
   .feature .fourth { left: 120px; }
 
 }
+
+/*************************
+**  Custom Media Query  **
+*************************/
+
+@media (max-width: 510px) {
+	p.tagline {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 600px) {
+	.arrow-left {
+		left: 10px;
+	}
+}
+
+@media (max-width: 991px) {
+	.top-bar {
+		background: #2196f3;
+	}
+
+	.navbar-collapse {
+		background: #2196f3;
+		top: 0;
+	}
+
+	.nav .download-btn a:hover,
+  .nav .download-btn a.active {
+		color: #2196f3;
+	}
+}
